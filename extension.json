@@ -1,0 +1,28 @@
+{
+	"name": "ZoomAnalyticsIntegration",
+	"version": "0.1.0",
+	"author": [
+		"Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])"
+	],
+	"url": "https://github.com/kolzchut/mediawiki-extensions-ZoomAnalyticsIntegration",
+	"descriptionmsg": "zoomanalyticsintegration-desc",
+	"license-name": "GPL-2.0+",
+	"type": "other",
+	"AutoloadClasses": {
+		"MediaWiki\\WikiRights\\ZoomAnalyticsIntegrationHooks": "ZoomAnalyticsIntegration.hooks.php"
+	},
+	"config": {
+		"ZoomAnalyticsUrlCustomPart": false
+	},
+	"Hooks": {
+		"SkinHelenaBodyStart": [
+			"MediaWiki\\WikiRights\\ZoomAnalyticsIntegrationHooks::onSkinHelenaBodyStart"
+		]
+	},
+	"MessagesDirs": {
+		"ZoomAnalyticsIntegration": [
+			"i18n"
+		]
+	},
+	"manifest_version": 1
+}
