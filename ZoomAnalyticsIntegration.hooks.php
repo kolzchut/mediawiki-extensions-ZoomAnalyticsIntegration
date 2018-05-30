@@ -4,7 +4,7 @@ namespace MediaWiki\WikiRights;
 
 class ZoomAnalyticsIntegrationHooks {
 
-	public static function onSkinHelenaBodyStart( &$skin ) {
+	public static function onSkinHelenaBodyStart( $skin ) {
 		global $wgZoomAnalyticsUrlCustomPart;
 
 		if ( $wgZoomAnalyticsUrlCustomPart === false ) {
