@@ -1,3 +1,7 @@
+> [!WARNING]
+> This MediaWiki extension is no longer maintained. It is also much easier to accomplish such integration using Google Tag Manager and [our extension for it](https://github.com/kolzchut/mediawiki-extensions-GoogleTagManager)
+
+
 Zoom Analytics Integration extension for MediaWiki
 ==================================================
 
